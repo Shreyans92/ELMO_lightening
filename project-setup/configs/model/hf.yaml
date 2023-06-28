@@ -1,4 +1,4 @@
-_target_: dummypackage.models.hf_module.HFLitModule
+_target_: models.hf_module.HFLitModule
 
 optimizer:
   _target_: torch.optim.Adam

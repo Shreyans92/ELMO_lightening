@@ -1,8 +1,9 @@
 # --------- pytorch --------- #
-torch>=2.0.0
-torchvision>=0.15.0
-lightning[extra]>=2.0.0
-torchmetrics>=0.11.4
+torch==2.0.1
+torchvision==0.15.2
+lightning[extra]==2.0.1
+torchmetrics==0.11.4
+timm==0.9.2
 
 # --------- model zoo -------#
 transformers

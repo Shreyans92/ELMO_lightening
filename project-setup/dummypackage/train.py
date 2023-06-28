@@ -1,12 +1,15 @@
 from typing import Tuple, Dict
 
+# import sys
+# sys.path.append("/workspaces/project-setup/dummypackage")
+
 import lightning as L
 import torch
 #import torchvision
 import hydra
 from omegaconf import DictConfig
 
-from dummypackage import utils
+import utils
 
 log = utils.get_pylogger(__name__)
 
